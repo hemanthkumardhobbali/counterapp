@@ -1,0 +1,54 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(183, 222, 222);
+}
+div{
+    display: flex;
+    flex-direction:column ;
+    width: 350px;
+    height: 400px;
+    background-color: rgb(176, 206, 153);
+    justify-content: center;
+    align-items: center;
+    border: solid black;
+    border-radius: 5px;
+    gap: 20px;
+}
+div h1{
+    color:white;
+    font-size: 40px;
+}
+div p{
+    background-color: azure;
+    border-radius: 20px;
+    width: 150px;
+    height: 20px;
+    text-align: center;
+}
+div button{
+    width: 70px;
+    height: 20px;
+    border-radius: 10px;
+}
+div #one{
+    background-color: rgb(84, 207, 80);
+    color: white;
+    font-size: 20px;
+    
+}
+div #two{
+    background-color: rgb(209, 160, 160);
+    color: white;
+    font-size: 20px;
+
+}
+div #three{
+    background-color: rgb(222, 143, 87);
+    color: white;
+    font-size: 20px;
+
+
+}
